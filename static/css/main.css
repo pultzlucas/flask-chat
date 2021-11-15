@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*
+{
+    font-family: 'Inter', cursive;
+}
+
+body, html
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main
+{
+    display: flex;
+}
+
+.chat-container
+{
+    flex: 1;
+}
+
+.chat-view {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    height: calc(100vh - 74px);
+    min-height: 400px;
+    min-width: 800px;
+    background-color: #666;
+}
+
+.chat-members-container
+{
+    color: #fff;
+    text-align: center;
+    width: 260px;
+    background-color: #555;
+}
+
+.chat-members ul
+{
+    margin: auto;
+    margin-top: 20px;
+    /* list-style: none; */
+    padding: 0px 110px;
+}
+
+.chat-members ul li
+{
+    margin: 5px 0px;
+}

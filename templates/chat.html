@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="css/scroll-bar.css">
+    <link rel="stylesheet" href="css/message.css">
+    <link rel="stylesheet" href="css/message-bar.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <main>
+        <aside class="chat-members-container">
+            <div class="chat-members">
+                <h2>Members</h2>
+                <ul>
+                    <li>Lucas</li>
+                    <li>Lucas</li>
+                    <li>Lucas</li>
+                </ul>
+            </div>
+        </aside>
+        <div class="chat-container">
+            <div class="chat-view"></div>
+            <div class="chat-message-bar">
+                <form>
+                    <input type="text" placeholder="Type your message here..." />
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+    <script src="components/message.js"></script>
+    <script src="ws.js"></script>
+</body>
+
+</html>

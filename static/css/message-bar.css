@@ -1,0 +1,39 @@
+.chat-message-bar
+{
+    height: 73px;
+}
+
+.chat-message-bar form
+{
+    background-color: #555;
+    padding: 10px;
+    display: flex;
+}
+
+.chat-message-bar input
+{
+    flex: 10;
+    padding: 16px;
+    font-size: 1rem;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #aaa;
+}
+
+.chat-message-bar button
+{
+    flex: 1;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #ccc;
+    margin: 0px 0px 0px 10px;
+    border: none;
+    outline: none;
+    transition: .2s;
+}
+
+.chat-message-bar button:hover
+{
+    background-color: #ddd;
+}

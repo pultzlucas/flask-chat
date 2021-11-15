@@ -1,0 +1,39 @@
+.chat-message
+{
+    border-radius: 30px;
+    padding: 10px 30px;
+    padding-bottom: 20px;
+    margin: 10px;
+    width: 60%;
+    line-height: 22px;
+}
+
+.chat-message-writer, .chat-message-text
+{
+    margin: 0px;
+    text-align: left;
+}
+
+.chat-message-writer
+{
+    font-size: 1.2rem;
+}
+
+.chat-message-text
+{
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+.chat-message-mine
+{
+    align-self: flex-end;
+    background-color: rgb(193, 230, 185);
+    border: 2px solid rgb(165, 201, 174);
+}
+
+.chat-message-other
+{
+    background-color: rgb(185, 212, 230);
+    border: 2px solid rgb(160, 187, 209);
+}
